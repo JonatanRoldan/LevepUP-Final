@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Deportes S.A.</title>
+        <style>
+            .main{
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+           
+          
+            @keyframes clipMe {
+                0%, 100% {
+                    clip: rect(0px, 220px, 2px, 0px);
+                }
+                25% {
+                    clip: rect(0px, 2px, 220px, 0px);
+                }
+                50% {
+                    clip: rect(218px, 220px, 220px, 0px);
+                }
+                75% {
+                    clip: rect(0px, 220px, 220px, 218px);
+                }
+            }
+          html,
+          body {
+            height: 100%;
+          }
+          
+          body {
+            position: relative;
+            background-color: #00191e;
+          }
+          
+          *,
+          *::before,
+          *::after {
+            box-sizing: border-box;
+          }
+          .content{
+              position: relative;
+              top: 0px;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              color: #fff;
+          }
+          p{
+                font-size: 1.5rem;
+                margin-bottom: 1rem;
+                color: #fff;
+          }
+          a{
+                color: #fff;
+                text-decoration: none;
+          }
+          .btn-doc{
+                background-color: #1ec2eb;
+                color: #fff;
+                padding: 1rem 2rem;
+                border-radius: 5px;
+                text-decoration: none;
+                margin-top: 1rem;
+          }
+        </style>
+    </head>
+    <body>
+        <main class="main">
+            <div class="content">
+                <h1>Bienvenido a la API de Cines S.A.</h1>
+                <div class="btn-doc">
+                    <a href="http://127.0.0.1:3000/api-doc" target="_blank" rel="noopener noreferrer">documentación de la api-rest</a>
+                </div>
+                
+            </div>
+         </main>
+    </body>
+</html>

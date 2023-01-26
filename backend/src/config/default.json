@@ -1,0 +1,9 @@
+{
+  "peliculas": {
+    "dbConfig":{
+      "host": "localhost",
+      "port": 5984,
+      "dbName": "mongodb+srv://jony:Root23Peliculas@peliculas.hakmv0b.mongodb.net/?retryWrites=true&w=majority"
+    }
+  }
+}
